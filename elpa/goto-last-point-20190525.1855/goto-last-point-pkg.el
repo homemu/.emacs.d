@@ -1,0 +1,2 @@
+;;; Generated package description from /home/mandi/.emacs.d/elpa/goto-last-point-20190525.1855/goto-last-point.el  -*- no-byte-compile: t -*-
+(define-package "goto-last-point" "20190525.1855" "Record and jump to the last point in the buffer." '((emacs "24.3")) :commit "7ea191df18ff4774cf1dc568e1726143dd54ea02" :authors '(("Manuel Uberti" . "manuel.uberti@inventati.org")) :maintainer '("Manuel Uberti" . "manuel.uberti@inventati.org") :keywords '("convenience") :url "https://github.com/manuel-uberti/goto-last-point")

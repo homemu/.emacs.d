@@ -1,0 +1,2 @@
+;;; Generated package description from /home/mandi/.emacs.d/elpa/bmx-mode-20180929.1132/bmx-mode.el  -*- no-byte-compile: t -*-
+(define-package "bmx-mode" "20180929.1132" "Batch Mode eXtras" '((emacs "25.1") (cl-lib "0.5") (company "0.9.4") (dash "2.13.0") (s "1.12.0")) :commit "30122e2a6bfb00834e18363e7909182b2701ce82" :authors '(("Jostein Kjønigsen" . "jostein@gmail.com")) :maintainer '("Jostein Kjønigsen" . "jostein@gmail.com") :keywords '("c" "convenience" "tools") :url "http://github.com/josteink/bmx-mode")

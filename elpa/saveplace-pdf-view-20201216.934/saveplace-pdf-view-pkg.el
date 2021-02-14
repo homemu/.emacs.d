@@ -1,0 +1,2 @@
+;;; Generated package description from /home/mandi/.emacs.d/elpa/saveplace-pdf-view-20201216.934/saveplace-pdf-view.el  -*- no-byte-compile: t -*-
+(define-package "saveplace-pdf-view" "20201216.934" "Save place in pdf-view buffers" '((emacs "24.1") (pdf-tools "1.0")) :commit "b0370912049222f3a4c943856de3d69d48d53a35" :authors '(("Nicolai Singh <nicolaisingh at pm.me>")) :maintainer '("Nicolai Singh <nicolaisingh at pm.me>") :keywords '("files" "convenience") :url "https://github.com/nicolaisingh/saveplace-pdf-view")
