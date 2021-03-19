@@ -68,9 +68,8 @@
 (hm-leader-def "r" 'counsel-recentf)
 (hm-leader-def "l" 'dired-jump)
 (hm-leader-def "," 'save-buffer)
-(hm-leader-def "m" 'evil-window-map)
 ;;(hm-leader-def "m," 'evil-window-prev)
-(hm-leader-def "." 'evil-window-next)
+(hm-leader-def "." 'evil-window-map)
 (hm-leader-def "n" 'ivy-switch-buffer)
 (hm-leader-def "f" 'counsel-projectile-find-file)
 (hm-leader-def "b" 'evil-switch-to-windows-last-buffer)
@@ -78,6 +77,12 @@
 (hm-leader-def "j" 'evilem-motion-find-char)
 (hm-leader-def "k" 'evilem-motion-find-char-backward)
 (hm-leader-def "y" 'youdao-dictionary-search-at-point)
+
+;;---tab ---
+(hm-leader-def ".n" 'tab-new)
+(hm-leader-def ".," 'tab-previous)
+(hm-leader-def ".." 'tab-next)
+(hm-leader-def ".c" 'tab-close)
 
 
 ;; ---pyim settings---

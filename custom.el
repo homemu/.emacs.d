@@ -11,7 +11,7 @@
 ;; (setq centaur-server nil)                      ; Enable `server-mode' or not: t or nil
 ;; (setq centaur-icon nil)                        ; Display icons or not: t or nil
 (setq centaur-package-archives 'ustc)   ; Package repo: melpa, emacs-china, netease, ustc, tencent or tuna
-(setq centaur-theme 'solarized-light)                    ; Color theme: auto, random, default, classic, colorful, dark, light, day or night
+(setq centaur-theme 'doom-molokai)                    ; Color theme: auto, random, default, classic, colorful, dark, light, day or night
 ;; (setq centaur-dashboard nil)                   ; Use dashboard at startup or not: t or nil
 ;; (setq centaur-restore-frame-geometry nil)      ; Restore the frame's geometry at startup: t or nil
 ;; (setq centaur-lsp 'eglot)                      ; Set LSP client: lsp-mode, eglot or nil
@@ -36,7 +36,7 @@
                                       :font font
                                       :height (cond (sys/mac-x-p 130)
                                                     (sys/win32p 110)
-                                                    (t 100))))
+                                                    (t 130))))
 
   ;; Specify font for all unicode characters
   (cl-loop for font in '("Apple Color Emoji" "Segoe UI Symbol" "Symbola" "Symbol")
@@ -91,7 +91,7 @@
       ("gnu" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
       ("melpa" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))))
  '(centaur-proxy "192.168.23.10:10809")
- '(centaur-theme 'solarized-light)
+ '(centaur-theme 'classic)
  '(centaur-theme-alist
    '((default . doom-one)
      (classic . doom-monokai-classic)
