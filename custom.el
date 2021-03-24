@@ -107,7 +107,8 @@
  '(dashboard-banner-logo-title "EMACS - Enjoy Freedom!")
  '(dashboard-footer-messages '("Code Time"))
  '(evil-search-module 'evil-search)
- '(evil-undo-system 'undo-tree))
+ '(evil-undo-system 'undo-tree)
+ '(rime-user-data-dir "~/.local/share/fcitx5/rime"))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

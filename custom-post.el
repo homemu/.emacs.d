@@ -15,7 +15,6 @@
       rime-show-candidate 'posframe)
 
 ;;; Code:
-(setq rime-user-data-dir "~/.local/share/fcitx5/rime")
 
 ;;(setq rime-posframe-properties
 ;;      (list :background-color "#333333"
@@ -25,12 +24,11 @@
 
 (setq rime-disable-predicates
       '(rime-predicate-evil-mode-p
-        rime-predicate-after-ascii-char-p
-        rime-predicate-after-alphabet-char-p
+        rime-predicate-space-after-cc-p
+        rime-predicate-punctuation-after-ascii-p
         rime-predicate-prog-in-code-p))
 
 ;;---evil config ---
-
 
 ;; use evil everywhere
 (evil-mode 1)
@@ -50,12 +48,13 @@
  :states 'motion
  ";" 'evil-ex
  ":" 'evil-repeat-find-char)
-;;(general-define-key
-;; :states 'insert
-;; "M-." 'pyim-punctuation-translate)
+(general-define-key
+ :states 'insert
+ "M-i" 'rime-inline-ascii)
 ;;(evilem-default-keybindings "SPC")
 ;; global define key map
 (general-define-key "M-m" 'toggle-input-method)
+;;(define-key rime-active-mode-map (kbd "M-i") 'rime-inline-ascii)
 
 ;; my leader-key
 (general-create-definer hm-leader-def
