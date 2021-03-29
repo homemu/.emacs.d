@@ -1,0 +1,2 @@
+;;; Generated package description from /home/kapi/.emacs.d/elpa/imenu-list-20210325.1536/imenu-list.el  -*- no-byte-compile: t -*-
+(define-package "imenu-list" "20210325.1536" "Show imenu entries in a separate buffer" '((cl-lib "0.5")) :stars nil :commit "b03b86aee6ac30067906dddc385db8188657d023" :authors '(("Bar Magal (2015)")) :maintainer '("Bar Magal (2015)") :url "https://github.com/bmag/imenu-list")

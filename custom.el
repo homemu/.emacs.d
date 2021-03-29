@@ -11,7 +11,7 @@
 ;; (setq centaur-server nil)                      ; Enable `server-mode' or not: t or nil
 ;; (setq centaur-icon nil)                        ; Display icons or not: t or nil
 (setq centaur-package-archives 'ustc)   ; Package repo: melpa, emacs-china, netease, ustc, tencent or tuna
-(setq centaur-theme 'doom-molokai)                    ; Color theme: auto, random, default, classic, colorful, dark, light, day or night
+(setq centaur-theme 'default)                    ; Color theme: auto, random, default, classic, colorful, dark, light, day or night
 ;; (setq centaur-dashboard nil)                   ; Use dashboard at startup or not: t or nil
 ;; (setq centaur-restore-frame-geometry nil)      ; Restore the frame's geometry at startup: t or nil
 ;; (setq centaur-lsp 'eglot)                      ; Set LSP client: lsp-mode, eglot or nil
@@ -91,7 +91,7 @@
       ("gnu" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
       ("melpa" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))))
  '(centaur-proxy "192.168.23.10:10809")
- '(centaur-theme 'classic)
+ '(centaur-theme 'default)
  '(centaur-theme-alist
    '((default . doom-one)
      (classic . doom-monokai-classic)
@@ -108,6 +108,14 @@
  '(dashboard-footer-messages '("Code Time"))
  '(evil-search-module 'evil-search)
  '(evil-undo-system 'undo-tree)
+ '(imenu-list-auto-resize t)
+ '(imenu-list-position 'right)
+ '(lsp-pyright-venv-path "~/.local/share/virtualenvs/conndy_blog-uIWtbTmx")
+ '(org-file-apps
+   '((auto-mode . emacs)
+     ("\\.mm\\'" . default)
+     ("\\.x?html?\\'" . default)
+     ("\\.pdf\\'" . system)))
  '(rime-user-data-dir "~/.local/share/fcitx5/rime"))
 
 (custom-set-faces

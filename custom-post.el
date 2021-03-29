@@ -48,12 +48,12 @@
  :states 'motion
  ";" 'evil-ex
  ":" 'evil-repeat-find-char)
-(general-define-key
- :states 'insert
- "M-i" 'rime-inline-ascii)
+;;(general-define-key
+ ;;:states 'insert
+ ;;"M-i" 'rime-inline-ascii)
 ;;(evilem-default-keybindings "SPC")
 ;; global define key map
-(general-define-key "M-m" 'toggle-input-method)
+(general-define-key "M-i" 'toggle-input-method)
 ;;(define-key rime-active-mode-map (kbd "M-i") 'rime-inline-ascii)
 
 ;; my leader-key
@@ -83,6 +83,9 @@
 (hm-leader-def ".." 'tab-next)
 (hm-leader-def ".c" 'tab-close)
 
+;;---lsp find---
+(hm-leader-def "dd" 'lsp-find-definition)
+(hm-leader-def "dr" 'lsp-find-references)
 
 ;; ---pyim settings---
 ;; 需要解决counsel-ag 下的快捷键冲突问题。
